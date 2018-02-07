@@ -1,2 +1,1 @@
-# sankey_eval
-An InfoVis tool for component-based evaluation
+# My project's README

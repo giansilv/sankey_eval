@@ -1,0 +1,388 @@
+﻿{
+	"data" : {
+		"TREC_T07.csv" : {
+			"campaign" : "TREC",
+			"track" : "T07"
+		}, 
+		"TREC_T08.csv" : {
+			"campaign" : "TREC",
+			"track" : "T08"
+		}, 
+		"TREC_T09.csv" : {
+			"campaign" : "TREC",
+			"track" : "T09"
+		}, 
+		"TREC_T10.csv" : {
+			"campaign" : "TREC",
+			"track" : "T10"
+		}, 
+		"TREC_T14.csv" : {
+			"campaign" : "TREC",
+			"track" : "T14"
+		}, 
+		"TREC_T15.csv" : {
+			"campaign" : "TREC",
+			"track" : "T15"
+		}
+	},
+	"language" : {
+		"bg" : "Bulgarian",
+		"cs" : "Czech",
+		"de" : "German",
+		"en" : "English",
+		"es" : "Spanish",
+		"fi" : "Finnish",
+		"fr" : "French",
+		"hu" : "Hungarian",
+		"it" : "Italian",
+		"pt" : "Portuguese",
+		"ru" : "Russian",
+		"sv" : "Swedish"
+	},	
+	"campaign" : {
+		"TREC" : {
+			"name" : "Text REtrieval Conference",
+			"link" : "http://trec.nist.gov/"
+		}, 
+		"CLEF" : {
+			"name" : "Conference and Labs of the Evaluation Forum",
+			"link" : "http://www.clef-initiative.eu/"
+		}
+	},
+	"track" : {
+		"T07" : {
+			"name" : "TREC 07 Ad-hoc Track",
+			"year" : "1998",
+			"type" : "News search",
+			"corpus" : {
+				"name" : "TIPSTER",
+				"documents" : 528155,
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "351-400",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "binary",
+				"pooling" : "depth 100"
+			},
+			"overview" : {
+				"reference": "Voorhees, E. M. and Harman, D. K. (1998). Overview of the Seventh Text REtrieval Conference (TREC-7). In Voorhees, E. M. and Harman, D. K., editors, The Seventh Text REtrieval Conference (TREC-7), pages 1–24. National Institute of Standards and Technology (NIST), Special Publication 500-242, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec7/papers/overview_7.pdf.gz"
+			}
+		},
+		"T08" : {
+			"name" : "TREC 08 Ad-hoc Track",
+			"year" : "1999",
+			"type" : "News search",
+			"corpus" : {
+				"name" : "TIPSTER",
+				"documents" : 528155,
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "401-450",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "binary",
+				"pooling" : "depth 100"
+			},
+			"overview" : {
+				"reference": "Voorhees, E. M. and Harman, D. K. (1999). Overview of the Eigth Text REtrieval Conference (TREC-8). In Voorhees, E. M. and Harman, D. K., editors, The Eighth Text REtrieval Conference (TREC-8), pages 1–24. National Institute of Standards and Technology (NIST), Special Publication 500-246, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec8/papers/overview_8.pdf"
+			}
+		},
+		"T09" : {
+			"name" : "TREC 09 Web Track",
+			"year" : "2000",
+			"type" : "Web search",
+			"corpus" : {
+				"name" : "WT10g",
+				"documents" : "1.7 million Web pages",
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "451-500",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "graded, 3 degrees",
+				"pooling" : "depth 100"
+			},
+			"overview" : {
+				"reference": "Hawking, D. (2000). Overview of the TREC-9 Web Track. In Voorhees, E. M. and Harman, D. K., editors, The Ninth Text REtrieval Conference (TREC-9), pages 87–103. National Institute of Standards and Technology (NIST), Special Publication 500-249, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec9/papers/web9.pdf"
+			}
+		},
+		"T10" : {
+			"name" : "TREC 10 Web Track",
+			"year" : "2001",
+			"type" : "Web search",
+			"corpus" : {
+				"name" : "WT10g",
+				"documents" : "1.7 million Web pages",
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "501-550",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "graded, 3 degrees",
+				"pooling" : "depth 100"
+			},
+			"overview" : {
+				"reference": "Hawking, D. and Craswell, N. (2001). Overview of the TREC-2001 Web Track. In Voorhees, E. M. and Harman, D. K., editors, The Tenth Text REtrieval Conference (TREC 2001) , pages 61–67. National Institute of Standards and Technology (NIST), Special Publication 500-250, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec10/papers/web2001.ps.gz"
+			}
+		},
+		"T13" : {
+			"name" : "TREC 13 Terabyte Track",
+			"year" : "2004",
+			"type" : "Web search",
+			"corpus" : {
+				"name" : "GOV2",
+				"documents" : "125 million Web pages",
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "701-750",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "graded, 3 degrees",
+				"pooling" : "depth 85"
+			},
+			"overview" : {
+				"reference": "Clarke, C. L. A., Craswell, N., and Soboroff, I. (2004). Overview of the TREC 2004 Terabyte Track. In Voorhees, E. M. and Buckland, L. P., editors, The Thirteenth Text REtrieval Conference Pro- ceedings (TREC 2004). National Institute of Standards and Technology (NIST), Special Publication 500-261, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec13/papers/TERA.OVERVIEW.pdf"
+			}
+		},
+		"T14" : {
+			"name" : "TREC 14 Terabyte Track",
+			"year" : "2005",
+			"type" : "Web search",
+			"corpus" : {
+				"name" : "GOV2",
+				"documents" : "125 million Web pages",
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "751-800",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "graded, 3 degrees",
+				"pooling" : "depth 100"
+			},
+			"overview" : {
+				"reference": "Clarke, C. L. A., Scholer, F., and Soboroff, I. (2005). Overview of the TREC 2005 Terabyte Track. In Voorhees, E. M. and Buckland, L. P., editors, The Fourteenth Text REtrieval Conference Proceedings (TREC 2005). National Institute of Standards and Technology (NIST), Special Publication 500-266, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec14/papers/TERABYTE.OVERVIEW.pdf"
+			}
+		},
+		"T15" : {
+			"name" : "TREC 15 Terabyte Track",
+			"year" : "2006",
+			"type" : "Web search",
+			"corpus" : {
+				"name" : "GOV2",
+				"documents" : "125 million Web pages",
+				"language" : "en"
+			}, 
+			"topic" : {
+				"set" : "801-850",
+				"language" : "en"
+			},
+			"groundTruth" : {
+				"relevance" : "graded, 3 degrees",
+				"pooling" : "depth 50"
+			},
+			"overview" : {
+				"reference": "Buettcher, S., Clarke, C. L. A., and Soboroff, I. (2007). The TREC 2006 Terabyte Track. In Voorhees, E. M. and Buck- land, L. P., editors, The Fifteenth Text REtrieval Conference Proceedings (TREC 2006). National Institute of Standards and Technology (NIST), Special Publication 500-272, Washington, USA.",
+				"link" : "http://trec.nist.gov/pubs/trec15/papers/TERA06.OVERVIEW.pdf"
+			}
+		}
+	},
+	"stop" : {
+		"indri" : {
+			"name" : "indri",
+			"link" : "http://www.lemurproject.org/stopwords/stoplist.dft"
+		},
+		"nostop" : {
+			"name" : "nostop",
+			"link" : ""
+		},
+		"lucene" : {
+			"name" : "lucene",
+			"link" : ""
+		},
+		"smart" : {
+			"name" : "smart",
+			"link" : ""
+		},
+		"snowball" : {
+			"name" : "snowball",
+			"link" : ""
+		},
+		"terrier" : {
+			"name" : "terrier",
+			"link" : "http://terrier.org/docs/v4.1/javadoc/org/terrier/terms/Stopwords.html"
+}
+	},
+	"stemmer" : {
+		"porter" : {
+			"name" : "Porter stemmer",
+			"reference" : "Porter, M. F. (1980). An algorithm for suffix stripping. Pro- gram, 14(3):130–137.",
+			"link" : "http://terrier.org/docs/v4.1/javadoc/org/terrier/terms/PorterStemmer.html"
+		},
+		"nolug" : {
+			"name" : "Nolug stemmer",
+			"reference" : "",
+			"link" : ""
+		},
+		"lovins" : {
+			"name" : "Lovins stemmer",
+			"reference" : "",
+			"link" : ""
+		},
+		"weakPorter" : {
+			"name" : "WeakPorter stemmer",
+			"reference" : "",
+			"link" : ""
+		},
+		"snowballPorter" : {
+			"name" : "SnowballPorter stemmer",
+			"reference" : "",
+			"link" : ""
+		},
+	
+		"krovetz" : {
+			"name" : "Krovetz stemmer",
+			"reference" : "Krovetz, R. (2000). Viewing morphology as an inference process. Artificial Intelligence, 118(1–2):277–294.",
+			"link" : "https://github.com/gridofpoints/trec-sigir2016/blob/master/java/org/terrier/terms/KrovetzStemmer.java"
+		}
+	},
+	"model" : {
+		"bm25" : {
+			"name" : "BM25",
+			"reference" : "Robertson, S. E., Walker, S., and Beaulieu, M. (2000). Experimentation as a way of life: Okapi at TREC. Information Processing & Management, 36(1):95–108.",
+			"link" : "http://terrier.org/docs/v4.1/javadoc/org/terrier/matching/models/BM25.html"
+		},
+		"bb2" : {
+			"name" : "BB2",
+			"reference" : "",
+			"link" : ""
+		},
+		"dfiz" : {
+			"name" : "DFIZ",
+			"reference" : "",
+			"link" : ""
+		},
+		"dfree" : {
+			"name" : "DFREE",
+			"reference" : "",
+			"link" : ""
+		},
+		"dirichletlm" : {
+			"name" : "DIRICHLETLM",
+			"reference" : "",
+			"link" : ""
+		},
+		"dlh" : {
+			"name" : "DLH",
+			"reference" : "",
+			"link" : ""
+		},
+		"dph" : {
+			"name" : "DPH",
+			"reference" : "",
+			"link" : ""
+		},
+		"hiemstralm" : {
+			"name" : "HIEMSTRALM",
+			"reference" : "",
+			"link" : ""
+		},
+		"ifb2" : {
+			"name" : "IFB2",
+			"reference" : "",
+			"link" : ""
+		},
+		"inb2" : {
+			"name" : "INB2",
+			"reference" : "",
+			"link" : ""
+		},
+		"inl2" : {
+			"name" : "INL2",
+			"reference" : "",
+			"link" : ""
+		},
+		"inexpb2" : {
+			"name" : "INEXPB2",
+			"reference" : "",
+			"link" : ""
+		},
+		"jskls" : {
+			"name" : "JSKLS",
+			"reference" : "",
+			"link" : ""
+		},
+		"lemurtfidf" : {
+			"name" : "LEMURTF-IDF",
+			"reference" : "",
+			"link" : ""
+		},
+		"lgd" : {
+			"name" : "LGD",
+			"reference" : "",
+			"link" : ""
+		},
+		"pl2" : {
+			"name" : "PL2",
+			"reference" : "",
+			"link" : ""
+		},
+		"tfidf" : {
+			"name" : "TF-IDF, Vector Space Model",
+			"reference" : "Salton, G. and McGill, M. J. (1983). Introduction to Modern Information Retrieval. McGraw-Hill, New York, USA.",
+			"link" : "http://terrier.org/docs/v4.1/javadoc/org/terrier/matching/models/TF_IDF.html"
+		}
+	},
+	"measure" : {
+		"ap" : {
+			"name" : "Average Precision",
+			"reference" : "Buckley, C. and Voorhees, E. M. (2005). Retrieval System Evaluation. In Harman, D. K. and Voorhees, E. M., editors, TREC. Experiment and Evaluation in Information Retrieval, pages 53–78. MIT Press, Cambridge (MA), USA."
+		},
+		"p10" : {
+			"name" : "Precision at 10 Retrieved Documents",
+			"reference" : "Buettcher, S., Clarke, C. L. A., and Cormack, G. V. (2010). Information Retrieval: Implementing and Evaluating Search Engines. The MIT Press, Cambridge (MA), USA."
+		},
+		"rprec" : {
+			"name" : "Precision at the Recall Base",
+			"reference" : "Buettcher, S., Clarke, C. L. A., and Cormack, G. V. (2010). Information Retrieval: Implementing and Evaluating Search Engines. The MIT Press, Cambridge (MA), USA."
+		},
+		"rbp" : {
+			"name" : "Rank-Biased Precision",
+			"reference" : "Moffat, A. and Zobel, J. (2008). Rank-biased Precision for Measurement of Retrieval Effectiveness. ACM Transactions on Information Systems (TOIS), 27(1):2:1–2:27."
+		},
+		"ndcg" : {
+			"name" : "Normalized Discounted Cumulated Gain",
+			"reference" : "Jarvelin, K. and Kekalainen, J. (2002). Cumulated Gain-Based Evaluation of IR Techniques. ACM Transactions on Information Systems (TOIS), 20(4):422–446."
+		},
+		"ndcg20" : {
+			"name" : "Normalized Discounted Cumulated Gain at 20 Retrieved Documents",
+			"reference" : "Jarvelin, K. and Kekalainen, J. (2002). Cumulated Gain-Based Evaluation of IR Techniques. ACM Transactions on Information Systems (TOIS), 20(4):422–446."
+		},
+		"err" : {
+			"name" : "Expected Reciprocal Rank",
+			"reference" : "Chapelle, O., Metzler, D., Zhang, Y., and Grinspan, P. (2009). Expected Reciprocal Rank for Graded Relevance. In Cheung, D. W.-L., Song, I.-Y., Chu, W. W., Hu, X., and Lin, J. J., editors, Proc. 18th International Conference on Information and Knowledge Management (CIKM 2009), pages 621–630. ACM Press, New York, USA."
+		},
+		"twist" : {
+			"name" : "Twist",
+			"reference" : "Ferro, N., Silvello, G., Keskustalo, H., Pirkola, A., and Jarvelin, K. (2016). The Twist Measure for IR Evaluation: Taking User’s Effort Into Account. Journal of the American Society for Information Science and Technology (JASIST), 67(3):620–648."
+		}
+	}
+}
